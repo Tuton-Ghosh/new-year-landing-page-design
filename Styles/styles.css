@@ -5,6 +5,10 @@
     font-family: "Merriweather", "Inter", sans-serif;
 }
 
+/* Shared Styles */
+.cmn-clr{
+    color: rgba(255, 0, 0, 1);
+}
 /* Banner Section Styles */
 .container{
     margin-top: 100px;
@@ -14,7 +18,7 @@
 }
 .banner{
     margin-top: 50px;
-    background-image: linear-gradient(180.00deg, rgba(7, 2, 17, 1),rgba(7, 2, 17, 0) 100%), url(../images/Banner\ Image.png);
+    background-image: linear-gradient(180.00deg, rgba(7, 2, 17, 1),rgba(7, 2, 17, 0) 100%), url(../Assets/images/Banner\ Image.png);
     background-size: cover;
     height: 600px;
     border-radius: 16px;
@@ -35,4 +39,73 @@
 .banner .banner-heading h1{
     font-size: 72px;
     font-weight: 900;
+}
+
+/* Happy New Year Section Styles */
+.hny{
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+}
+.hny .hny-heading h1{
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+    font-family: Inter;
+}
+.hny .hny-heading h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    font-family: Inter;
+}
+.hny .hny-heading h2{
+    color: rgba(7, 2, 17, 1);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+    font-family: Inter;
+}
+
+/* Midnight Party Section Styles */
+.midnight-party .party{
+    margin-top: 120px;
+    background-image: linear-gradient(90.00deg, rgba(7, 2, 17, 1),rgba(7, 2, 17, 0) 100%), url(../Assets/images/Vectorrr.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.midnight-party .party .party-heading h1{
+    width: 642px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+.midnight-party .party .party-heading p{
+    width: 697px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.midnight-party .party .party-heading button{
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 32px;
+    width: 120px;
+    height: 40px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+.midnight-party .party .party-heading button:hover{
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+    border-radius: 5px;
 }
