@@ -149,3 +149,64 @@
     color: rgba(255, 255, 255, 1);
     cursor: pointer;
 }
+.place-date-time .pdt .pdt-content button:hover{
+    border: 2px solid rgba(255, 0, 0, 1);
+    color: rgba(255, 0, 0, 1);
+    background: none;
+}
+
+/* Best Offer Section Styles */
+.bo-content{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bo-content .bo-text{
+    width: 393px;
+    margin-right: 70px;
+}
+.bo-content .bo-text h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.bo-content .bo-text h1{
+    color: rgba(7, 2, 17, 1);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.bo-content .bo-text p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+}
+.bo-content .bo-img{
+    width: 463px;
+    height: 463px;
+    border: 15px solid rgba(255, 0, 0, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bo-content .bo-img img{
+    width: 364.84px;
+    height: 364.84px;
+}
+.bo-content .bo-text-2{
+    width: 276px;
+    margin-left: 118px;
+}
+.bo-content .bo-text-2 h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.bo-content .bo-text-2 p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
