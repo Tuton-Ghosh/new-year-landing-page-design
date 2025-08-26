@@ -210,3 +210,55 @@
     font-weight: 400;
     margin-bottom: 48px;
 }
+
+/* Holidays Sale Section Styles */
+.hs{
+    margin-top: 120px;
+}
+.hs .hs-text{
+    text-align: center;
+    margin: 0 auto;
+    width: 66.75%;
+    max-width: 1068px;
+}
+.hs .hs-text h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.hs .hs-text h1{
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+.hs .hs-text p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 68px;
+}
+.hs .hs-img{
+    background-image: url(../Assets/images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    border-radius: 16px 0px 16px 16px;
+    background-position: bottom;
+}
+.hs .hs-img .right-side{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+.hs .hs-img .right-side .tag-bg{
+    background-image: url(../Assets/images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    width: 429px;
+    height: 433px;
+    position: relative;
+}
+.hs .hs-img .right-side .tag-bg .tag {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
