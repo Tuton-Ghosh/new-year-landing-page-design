@@ -396,12 +396,12 @@
 }
 
 .ft-section .icons{
-    margin-top: 98px;
+    margin-top: 48px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
-    margin-bottom: 98px;
+    margin-bottom: 48px;
 }
 
 .ft-section .copyright{
