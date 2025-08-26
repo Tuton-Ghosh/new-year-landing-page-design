@@ -262,3 +262,41 @@
     left: 0;
     transform: translate(-50%, -50%);
 }
+
+/* Best Gifts Section Styles */
+.b-g{
+    margin-top: 120px;
+}
+.b-g-text{
+    margin-bottom: 48px;
+    text-align: left;
+}
+.b-g .b-g-text h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+.b-g .b-g-text h1{
+    color: rgba(7, 2, 17, 1);
+    font-size: 48px;
+    font-weight: 900;
+}
+.b-g .b-g-text p{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.b-g .gift-img .img1{
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+.b-g .gift-img .img2{
+    width: 100%;
+    display: flex;
+    border-radius: 16px;
+    gap: 24px;
+}
