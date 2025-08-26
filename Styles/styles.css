@@ -12,6 +12,9 @@
 .cmn-style{
     font-family: Inter;
 }
+.hr-clr{
+    border: 1px solid rgba(255, 255, 255, 0.15)
+}
 /* Banner Section Styles */
 .container{
     margin-top: 100px;
@@ -356,4 +359,74 @@
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
+}
+
+/* Footer Section Styles */
+.footer{
+    color: #FFFFFF;
+    background-color: rgba(7, 2, 17, 1);
+    width: 100%;
+    min-height: 609px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ft-section .loc{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 49px;
+}
+.ft-section .loc h3{
+    width: 375px;
+    height: 80px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.ft-section .loc .cont .number, .website{
+    display: flex;
+    gap: 8px;
+}
+.ft-section .loc .cont p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.ft-section .icons{
+    margin-top: 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 98px;
+}
+
+.ft-section .copyright{
+    margin-top: 49px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ft-section .copyright h3{
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    font-weight: 500;
+}
+.ft-section .copyright button{
+    color: rgba(255, 255, 255, 1);
+    font-size: 24px;
+    font-weight: 500;
+    width: 167px;
+    height: 56px;
+    background: none;
+    border: none;
+}
+.ft-section .copyright button:hover{
+    background-color: rgba(255, 255, 255, 1);;
+    color: rgba(7, 2, 17, 1);
+    border-radius: 8px;
+    cursor: pointer;
 }
